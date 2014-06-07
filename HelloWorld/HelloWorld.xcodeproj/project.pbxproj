@@ -10,6 +10,7 @@
 		22A784581943CB10001A5DFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A784571943CB10001A5DFB /* AppDelegate.swift */; };
 		22A7845A1943CB10001A5DFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A784591943CB10001A5DFB /* Images.xcassets */; };
 		22A784661943CB10001A5DFB /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A784651943CB10001A5DFB /* HelloWorldTests.swift */; };
+		22A784701943CB67001A5DFB /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7846F1943CB67001A5DFB /* HelloWorldViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,7 @@
 		22A7845F1943CB10001A5DFB /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A784641943CB10001A5DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22A784651943CB10001A5DFB /* HelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldTests.swift; sourceTree = "<group>"; };
+		22A7846F1943CB67001A5DFB /* HelloWorldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				22A784571943CB10001A5DFB /* AppDelegate.swift */,
 				22A784591943CB10001A5DFB /* Images.xcassets */,
 				22A784551943CB10001A5DFB /* Supporting Files */,
+				22A7846F1943CB67001A5DFB /* HelloWorldViewController.swift */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22A784701943CB67001A5DFB /* HelloWorldViewController.swift in Sources */,
 				22A784581943CB10001A5DFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -317,6 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
